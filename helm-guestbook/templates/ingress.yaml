@@ -3,6 +3,7 @@ kind: Ingress
 metadata:
   name: guestbook-ingress
 spec:
+  ingressClassName: nginx
   rules:
   - host: {{ .Values.fqdn }}
     http:
