@@ -11,6 +11,8 @@ image:
 
 containerPort: 80
 
+fqdn: 'example.com'
+
 service:
   type: ClusterIP
   port: 80
